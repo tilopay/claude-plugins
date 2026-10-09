@@ -1,0 +1,23 @@
+{
+  "name": "tilopay",
+  "owner": {
+    "name": "Tilopay",
+    "email": "soporte@tilopay.com"
+  },
+  "metadata": {
+    "description": "Plugins oficiales de Tilopay para Claude Code y Cowork.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tilopay-mcp-skills",
+      "source": "./plugins/tilopay-mcp-skills",
+      "description": "Seis skills para operar un comercio Tilopay con el MCP de Tilopay: cierre de caja, cobrar por WhatsApp, rechazos y recuperación, conciliación mensual, CFO de bolsillo y catálogo.",
+      "version": "1.0.1",
+      "author": { "name": "Tilopay" },
+      "homepage": "https://tilopay.com/developers/agentes/mcp/skills",
+      "category": "productivity",
+      "keywords": ["tilopay", "mcp", "pagos", "costa-rica"]
+    }
+  ]
+}
