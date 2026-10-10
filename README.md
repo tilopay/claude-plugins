@@ -7,7 +7,7 @@ Skills oficiales para usar el [MCP de Tilopay](https://tilopay.com/developers/ag
 Dentro de Claude Code, escribí estos dos comandos:
 
 ```
-/plugin marketplace add hnannetp/claude-plugins
+/plugin marketplace add tilopay/claude-plugins
 /plugin install tilopay-mcp-skills@tilopay
 ```
 
