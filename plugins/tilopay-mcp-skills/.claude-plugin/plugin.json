@@ -2,7 +2,21 @@
   "name": "tilopay-mcp-skills",
   "version": "1.0.1",
   "description": "Skills para operar un comercio Tilopay desde un agente de IA con el MCP de Tilopay: cierre de caja, cobrar por WhatsApp, rechazos y recuperación, conciliación mensual, CFO de bolsillo y catálogo.",
-  "author": { "name": "Tilopay", "email": "soporte@tilopay.com" },
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "author": {
+    "name": "Tilopay",
+    "email": "soporte@tilopay.com"
+  },
+  "mcpServers": {
+  "tilopay": { "type": "http", "url": "https://mcp.tilopay.com/mcp" }
+  },
   "homepage": "https://tilopay.com/developers/agentes/mcp/skills",
-  "keywords": ["tilopay", "mcp", "pagos", "costa-rica", "comercio"]
+  "keywords": [
+    "tilopay",
+    "mcp",
+    "pagos",
+    "costa-rica",
+    "comercio"
+  ]
 }
